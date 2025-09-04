@@ -295,7 +295,7 @@
 
 		panel_MTF070@0 {
 			compatible = "ingenic,mtf070";
-			status = "okay";
+			status = "disable";
 			ingenic,bl-gpio = <&gpc 4 GPIO_ACTIVE_HIGH INGENIC_GPIO_NOBIAS>;
 			ingenic,rst-gpio = <&gpb 28 GPIO_ACTIVE_LOW INGENIC_GPIO_NOBIAS>;
 			ingenic,pw-gpio = <&gpb 29 GPIO_ACTIVE_HIGH INGENIC_GPIO_NOBIAS>;
